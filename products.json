@@ -14,7 +14,7 @@
       "featured": true,
       "new": false,
       "description": "1 page, responsive design, basic SEO, contact form",
-      "image": ""
+      "image": "images/starter.png"
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "featured": true,
       "new": true,
       "description": "5 pages, modern UI, speed optimization, contact form, email",
-       "image": ""
+       "image": "images/business.png"
     },
     {
       "id": 3,
@@ -42,7 +42,7 @@
       "featured": false,
       "new": false,
       "description": "login, register, sql database, admin panel, crud, security",
-       "image": ""
+       "image": "images/full-stack.png"
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2025-08-01",
+  "currency": "USD",
+  "products": [
+    {
+      "id": 1,
+      "name": "Starter",
+      "price": 199,
+      "category": "Web Development",
+      "brand": "AK",
+      "rating": 4.6,
+      "reviews": 184,
+      "stock": 42,
+      "featured": true,
+      "new": false,
+      "description": "1 page, responsive design, basic SEO, contact form",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Business",
+      "price": 499,
+      "category": "Web Development",
+      "brand": "AK",
+      "rating": 4.4,
+      "reviews": 89,
+      "stock": 18,
+      "featured": true,
+      "new": true,
+      "description": "5 pages, modern UI, speed optimization, contact form, email",
+       "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Full Stack",
+      "price": 999,
+      "category": "Web Development",
+      "brand": "AK",
+      "rating": 4.8,
+      "reviews": 312,
+      "stock": 120,
+      "featured": false,
+      "new": false,
+      "description": "login, register, sql database, admin panel, crud, security",
+       "image": ""
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Design & Full-Stack Development | Asad Khilji</title>
+  <meta name="description" content="Modern web design and full-stack development (HTML, CSS, PHP, SQL). Fast, responsive, SEO-ready websites with clear pricing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Background accents -->
+  <div class="bg-blur bg-blur--a"></div>
+  <div class="bg-blur bg-blur--b"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <span class="brand__mark">⚡</span>
+        <span class="brand__name">Asad Khilji</span>
+      </a>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="btn btn--primary btn--small" href="#contact">Get a Quote</a>
+
+      <button class="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="pill">Full-Stack Web Developer • HTML • CSS • PHP • SQL</p>
+          <h1>Modern websites that look sharp, load fast, and convert.</h1>
+          <p class="lead">
+            I design and build responsive, SEO-ready websites and web apps—from landing pages to
+            database-driven systems—using clean code and a modern UI.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#pricing">View Pricing</a>
+            <a class="btn btn--ghost" href="#work">See My Process</a>
+          </div>
+
+          <div class="hero__stats" role="list">
+            <div class="stat" role="listitem">
+              <div class="stat__num">⚡</div>
+              <div class="stat__text">
+                <strong>Performance-first</strong>
+                <span>Fast, optimized pages</span>
+              </div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat__num">📱</div>
+              <div class="stat__text">
+                <strong>Mobile-ready</strong>
+                <span>Responsive design</span>
+              </div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat__num">🔒</div>
+              <div class="stat__text">
+                <strong>Reliable</strong>
+                <span>Secure PHP + SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__top">
+              <div class="chip">Typical delivery</div>
+              <div class="chip chip--soft">3–10 days</div>
+            </div>
+
+            <div class="card__mock">
+              <div class="mock__bar"></div>
+              <div class="mock__row">
+                <div class="mock__block"></div>
+                <div class="mock__block mock__block--tall"></div>
+              </div>
+              <div class="mock__row">
+                <div class="mock__block mock__block--wide"></div>
+              </div>
+              <div class="mock__row">
+                <div class="mock__pill"></div>
+                <div class="mock__pill"></div>
+                <div class="mock__pill"></div>
+              </div>
+            </div>
+
+            <div class="card__list">
+              <div class="check">✔ Responsive UI</div>
+              <div class="check">✔ Clean HTML/CSS</div>
+              <div class="check">✔ PHP forms + SQL DB</div>
+              <div class="check">✔ Basic SEO setup</div>
+            </div>
+
+            <a class="btn btn--primary btn--full" href="collection.html">Start a Project</a>
+            <p class="card__fine">No long contracts • Clear pricing • Quick communication</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGOS -->
+    <section class="logos">
+      <div class="container">
+        <p class="logos__title">Built for businesses, startups, and personal brands</p>
+        <div class="logos__row" aria-label="Examples">
+          <span class="logo-pill">Portfolio</span>
+          <span class="logo-pill">Agency</span>
+          <span class="logo-pill">E-commerce</span>
+          <span class="logo-pill">SaaS</span>
+          <span class="logo-pill">Local Services</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <h2>Services</h2>
+          <p>Everything you need to launch (or improve) a modern web presence.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="panel">
+            <h3>Landing Pages</h3>
+            <p>High-converting pages with clear messaging, strong visuals, and fast load times.</p>
+            <ul class="bullets">
+              <li>Hero + sections</li>
+              <li>Lead capture / contact</li>
+              <li>SEO basics</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Business Websites</h3>
+            <p>Multi-page sites designed for trust, clarity, and easy navigation.</p>
+            <ul class="bullets">
+              <li>3–7 pages</li>
+              <li>Responsive design</li>
+              <li>CMS-ready structure</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>PHP + SQL Web Apps</h3>
+            <p>Database-driven systems: dashboards, logins, admin panels, and more.</p>
+            <ul class="bullets">
+              <li>Auth + roles</li>
+              <li>CRUD features</li>
+              <li>Secure forms</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section--alt" id="work">
+      <div class="container">
+        <div class="section__head">
+          <h2>Simple, fast process</h2>
+          <p>Clear steps so you know exactly what’s happening and when.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="step">
+            <div class="step__num">1</div>
+            <div class="step__body">
+              <h3>Plan</h3>
+              <p>We align on goals, content, pages, and features. You’ll get a simple project outline.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">2</div>
+            <div class="step__body">
+              <h3>Design</h3>
+              <p>Modern layout, spacing, and typography. Mobile-first and brand-consistent.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">3</div>
+            <div class="step__body">
+              <h3>Build</h3>
+              <p>Clean HTML/CSS, PHP for backend needs, SQL for data. Performance and SEO tuned.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">4</div>
+            <div class="step__body">
+              <h3>Launch</h3>
+              <p>Testing, fixes, and deployment help. You get all files and support options.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <h2>Pricing</h2>
+          <p>Transparent packages. Custom quotes available for larger builds.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price">
+            <div class="price__top">
+              <h3>Starter</h3>
+              <p class="price__tag">Best for simple landing pages</p>
+            </div>
+            <div class="price__cost">
+              <span class="price__currency">$</span>
+              <span class="price__amount">199</span>
+              <span class="price__unit">/ project</span>
+            </div>
+            <ul class="price__list">
+              <li>1 page landing</li>
+              <li>Responsive design</li>
+              <li>Basic SEO</li>
+              <li>Contact form (PHP)</li>
+            </ul>
+            <a class="btn btn--ghost btn--full" href="collection.html#/p/1">Choose Starter</a>
+          </article>
+
+          <article class="price price--featured">
+            <div class="badge">Most Popular</div>
+            <div class="price__top">
+              <h3>Business</h3>
+              <p class="price__tag">Best for small business sites</p>
+            </div>
+            <div class="price__cost">
+              <span class="price__currency">$</span>
+              <span class="price__amount">499</span>
+              <span class="price__unit">/ project</span>
+            </div>
+            <ul class="price__list">
+              <li>Up to 5 pages</li>
+              <li>Modern UI sections</li>
+              <li>Speed optimization</li>
+              <li>Contact form + email</li>
+              <li>On-page SEO setup</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="collection.html#/p/2">Choose Business</a>
+          </article>
+
+          <article class="price">
+            <div class="price__top">
+              <h3>Full-Stack</h3>
+              <p class="price__tag">Best for web apps & dashboards</p>
+            </div>
+            <div class="price__cost">
+              <span class="price__currency">$</span>
+              <span class="price__amount">999</span>
+              <span class="price__unit">+ / project</span>
+            </div>
+            <ul class="price__list">
+              <li>Auth (login/register)</li>
+              <li>SQL database design</li>
+              <li>Admin panel + CRUD</li>
+              <li>Security hardening</li>
+            </ul>
+            <a class="btn btn--ghost btn--full" href="collection.html#/p/3">Choose Full-Stack</a>
+          </article>
+        </div>
+
+        <div class="note">
+          <strong>Need something specific?</strong> E-commerce, bookings, APIs, or custom features—message me and I’ll quote it.
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2>FAQ</h2>
+          <p>Quick answers to common questions.</p>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item" open>
+            <summary>What do you need from me to start?</summary>
+            <p>Logo/brand colors (if you have them), content (or notes), and examples of websites you like.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Can you connect a database (SQL) and build admin tools?</summary>
+            <p>Yes—if you choose the Full-Stack package or a custom build. I can create secure CRUD dashboards.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Do you offer hosting & deployment help?</summary>
+            <p>I can guide you through deployment or help set up hosting (shared/VPS) depending on your needs.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__left">
+          <h2>Let’s build your website</h2>
+          <p>
+            Send a quick message with your goals and pages/features. I’ll reply with next steps and a clear quote.
+          </p>
+          <div class="contact__cards">
+            <div class="mini">
+              <div class="mini__icon">⏱️</div>
+              <div>
+                <strong>Fast turnaround</strong>
+                <p>Most sites delivered in days, not weeks.</p>
+              </div>
+            </div>
+            <div class="mini">
+              <div class="mini__icon">🧩</div>
+              <div>
+                <strong>Full-stack support</strong>
+                <p>Frontend + PHP backend + SQL database.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form" action="https://formsubmit.co/khiljiasad2@gmail.com" method="post">
+          <div class="form__row">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+          </div>
+
+          <label>
+            Project details
+            <textarea name="message" rows="5" placeholder="What do you want to build? Pages, features, deadline..." required></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--full" type="submit">Send Message</button>
+          <p class="form__fine">Tip: Replace this form action with your PHP handler (e.g., <code>contact.php</code>).</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="brand brand--footer">
+          <span class="brand__mark">⚡</span>
+          <span class="brand__name">Asad Khilji</span>
+        </div>
+        <p class="muted">Modern web design & full-stack development (HTML, CSS, PHP, SQL).</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__copy muted">
+        © <span id="year"></span> Asad Khilji. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const burger = document.querySelector(".burger");
+    const menu = document.querySelector(".menu");
+    burger?.addEventListener("click", () => {
+      const open = burger.getAttribute("aria-expanded") === "true";
+      burger.setAttribute("aria-expanded", String(!open));
+      menu.classList.toggle("menu--open");
+    });
+
+    // Footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
